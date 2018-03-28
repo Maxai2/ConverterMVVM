@@ -14,3 +14,19 @@ C:\Users\Mahm_iz81\Source\Repos\ConverterMVVM\ConverterMVVM\ConverterMVVM\obj\De
 C:\Users\Mahm_iz81\Source\Repos\ConverterMVVM\ConverterMVVM\ConverterMVVM\obj\Debug\ConverterMVVM.csproj.CoreCompileInputs.cache
 C:\Users\Mahm_iz81\Source\Repos\ConverterMVVM\ConverterMVVM\ConverterMVVM\obj\Debug\ConverterMVVM.exe
 C:\Users\Mahm_iz81\Source\Repos\ConverterMVVM\ConverterMVVM\ConverterMVVM\obj\Debug\ConverterMVVM.pdb
+C:\Users\Ali\Documents\Visual Studio 2017\Repos\ConverterMVVM\ConverterMVVM\ConverterMVVM\bin\Debug\ConverterMVVM.exe.config
+C:\Users\Ali\Documents\Visual Studio 2017\Repos\ConverterMVVM\ConverterMVVM\ConverterMVVM\bin\Debug\ConverterMVVM.exe
+C:\Users\Ali\Documents\Visual Studio 2017\Repos\ConverterMVVM\ConverterMVVM\ConverterMVVM\bin\Debug\ConverterMVVM.pdb
+C:\Users\Ali\Documents\Visual Studio 2017\Repos\ConverterMVVM\ConverterMVVM\ConverterMVVM\obj\Debug\ConverterMVVM.csprojResolveAssemblyReference.cache
+C:\Users\Ali\Documents\Visual Studio 2017\Repos\ConverterMVVM\ConverterMVVM\ConverterMVVM\obj\Debug\View\MainWindow.g.cs
+C:\Users\Ali\Documents\Visual Studio 2017\Repos\ConverterMVVM\ConverterMVVM\ConverterMVVM\obj\Debug\App.g.cs
+C:\Users\Ali\Documents\Visual Studio 2017\Repos\ConverterMVVM\ConverterMVVM\ConverterMVVM\obj\Debug\ConverterMVVM_MarkupCompile.cache
+C:\Users\Ali\Documents\Visual Studio 2017\Repos\ConverterMVVM\ConverterMVVM\ConverterMVVM\obj\Debug\ConverterMVVM_MarkupCompile.lref
+C:\Users\Ali\Documents\Visual Studio 2017\Repos\ConverterMVVM\ConverterMVVM\ConverterMVVM\obj\Debug\App.baml
+C:\Users\Ali\Documents\Visual Studio 2017\Repos\ConverterMVVM\ConverterMVVM\ConverterMVVM\obj\Debug\View\MainWindow.baml
+C:\Users\Ali\Documents\Visual Studio 2017\Repos\ConverterMVVM\ConverterMVVM\ConverterMVVM\obj\Debug\ConverterMVVM.g.resources
+C:\Users\Ali\Documents\Visual Studio 2017\Repos\ConverterMVVM\ConverterMVVM\ConverterMVVM\obj\Debug\ConverterMVVM.Properties.Resources.resources
+C:\Users\Ali\Documents\Visual Studio 2017\Repos\ConverterMVVM\ConverterMVVM\ConverterMVVM\obj\Debug\ConverterMVVM.csproj.GenerateResource.Cache
+C:\Users\Ali\Documents\Visual Studio 2017\Repos\ConverterMVVM\ConverterMVVM\ConverterMVVM\obj\Debug\ConverterMVVM.csproj.CoreCompileInputs.cache
+C:\Users\Ali\Documents\Visual Studio 2017\Repos\ConverterMVVM\ConverterMVVM\ConverterMVVM\obj\Debug\ConverterMVVM.exe
+C:\Users\Ali\Documents\Visual Studio 2017\Repos\ConverterMVVM\ConverterMVVM\ConverterMVVM\obj\Debug\ConverterMVVM.pdb

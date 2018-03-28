@@ -1,0 +1,16 @@
+C:\Users\Mahm_iz81\Source\Repos\ConverterMVVM\ConverterMVVM\ConverterMVVM\bin\Debug\ConverterMVVM.exe.config
+C:\Users\Mahm_iz81\Source\Repos\ConverterMVVM\ConverterMVVM\ConverterMVVM\bin\Debug\ConverterMVVM.exe
+C:\Users\Mahm_iz81\Source\Repos\ConverterMVVM\ConverterMVVM\ConverterMVVM\bin\Debug\ConverterMVVM.pdb
+C:\Users\Mahm_iz81\Source\Repos\ConverterMVVM\ConverterMVVM\ConverterMVVM\obj\Debug\ConverterMVVM.csprojResolveAssemblyReference.cache
+C:\Users\Mahm_iz81\Source\Repos\ConverterMVVM\ConverterMVVM\ConverterMVVM\obj\Debug\View\MainWindow.g.cs
+C:\Users\Mahm_iz81\Source\Repos\ConverterMVVM\ConverterMVVM\ConverterMVVM\obj\Debug\App.g.cs
+C:\Users\Mahm_iz81\Source\Repos\ConverterMVVM\ConverterMVVM\ConverterMVVM\obj\Debug\ConverterMVVM_MarkupCompile.cache
+C:\Users\Mahm_iz81\Source\Repos\ConverterMVVM\ConverterMVVM\ConverterMVVM\obj\Debug\ConverterMVVM_MarkupCompile.lref
+C:\Users\Mahm_iz81\Source\Repos\ConverterMVVM\ConverterMVVM\ConverterMVVM\obj\Debug\App.baml
+C:\Users\Mahm_iz81\Source\Repos\ConverterMVVM\ConverterMVVM\ConverterMVVM\obj\Debug\View\MainWindow.baml
+C:\Users\Mahm_iz81\Source\Repos\ConverterMVVM\ConverterMVVM\ConverterMVVM\obj\Debug\ConverterMVVM.g.resources
+C:\Users\Mahm_iz81\Source\Repos\ConverterMVVM\ConverterMVVM\ConverterMVVM\obj\Debug\ConverterMVVM.Properties.Resources.resources
+C:\Users\Mahm_iz81\Source\Repos\ConverterMVVM\ConverterMVVM\ConverterMVVM\obj\Debug\ConverterMVVM.csproj.GenerateResource.Cache
+C:\Users\Mahm_iz81\Source\Repos\ConverterMVVM\ConverterMVVM\ConverterMVVM\obj\Debug\ConverterMVVM.csproj.CoreCompileInputs.cache
+C:\Users\Mahm_iz81\Source\Repos\ConverterMVVM\ConverterMVVM\ConverterMVVM\obj\Debug\ConverterMVVM.exe
+C:\Users\Mahm_iz81\Source\Repos\ConverterMVVM\ConverterMVVM\ConverterMVVM\obj\Debug\ConverterMVVM.pdb

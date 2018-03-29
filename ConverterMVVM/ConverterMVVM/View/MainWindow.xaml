@@ -22,23 +22,13 @@
 			<ColumnDefinition/>
 		</Grid.ColumnDefinitions>
 
-		<ComboBox Grid.Row="0" Grid.Column="0" Name="ForCur" ItemsSource="{Binding Path=currencyItem}"
-												SelectedItem="{Binding ElementName=param, Path=From, Mode=TwoWay}" >
-			<ComboBox.ItemTemplate>
-				<DataTemplate>
-					<ComboBoxItem Content="{Binding Path=Name}"/>
-				</DataTemplate>
-			</ComboBox.ItemTemplate>
-		</ComboBox>
+		<ComboBox Grid.Row="0" Grid.Column="0" Name="ForCur" ItemTemplate="{StaticResource CurItems}" SelectedItem="{Binding ElementName=param, Path=From, Mode=TwoWay}"/>
 
-		<ComboBox Grid.Row="0" Grid.Column="1" Name="ToCur" ItemsSource="{Binding Path=currencyItem}"
-												SelectedItem="{Binding ElementName=param, Path=To, Mode=TwoWay}" ItemTemplate="{StaticResource AliExpress}">
-	
-		</ComboBox>
-		
-		<cur:CurrencyTextBox Grid.Row="1" Grid.Column="0" Margin="7" VerticalContentAlignment="Center" FontSize="14" Name="mtbValue" Number="{Binding ElementName=param, Path=Value, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" StringFormat="N"/>
+		<ComboBox Grid.Row="0" Grid.Column="1" Name="ToCur" ItemTemplate="{StaticResource CurItems}" SelectedItem="{Binding ElementName=param, Path=To, Mode=TwoWay}"/>
 
-		<Label Grid.Row="1" Grid.Column="1" Margin="7" VerticalContentAlignment="Center" FontSize="14" Name="lResult"/>
+		<cur:CurrencyTextBox Grid.Row="1" Grid.Column="0" Name="mtbValue" Number="{Binding ElementName=param, Path=Value, Mode=TwoWay}"/>
+
+		<cur:CurrencyTextBox Grid.Row="1" Grid.Column="1" Name="mtbAnswer" Number="{Binding ElementName=param, Path=Answer, Mode=TwoWay}" IsEnabled="False"/>
 
 		<Button Grid.Row="2" Grid.ColumnSpan="2" Margin="10" Content="Convert"
 										Command="{Binding ConvertCommand}">
@@ -46,9 +36,6 @@
 				<common:ConvertParameter x:Name="param"/>
 			</Button.CommandParameter>
 		</Button>
-		
+
 	</Grid>
 </Window>
-
-
-<!--Content="{Binding ElementName=ToCur, Path=SelectionBoxItem}"-->

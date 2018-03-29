@@ -41,21 +41,67 @@ namespace ConverterMVVM.ViewModel
 
         void Convert(ConvertParameter parameter)
         {
-            MessageBox.Show("tui");
+            //string From = parameter.From.Name;
+            //string To = parameter.To.Name;
 
             if (parameter.From.Name == "USD" && parameter.To.Name == "AZN")
             {
-                parameter.Value *= parameter.To.Value;
+                parameter.Answer = parameter.Value * parameter.To.Value;
             }
             else
             if (parameter.From.Name == "USD" && parameter.To.Name == "RUB")
             {
-                parameter.Value *= parameter.To.Value;
+                parameter.Answer = parameter.Value * parameter.To.Value;
             }
             else
             if (parameter.From.Name == "USD" && parameter.To.Name == "EUR")
             {
-                parameter.Value *= parameter.To.Value;
+                parameter.Answer = parameter.Value * parameter.To.Value;
+            }
+            else
+            if (parameter.From.Name == "AZN" && parameter.To.Name == "EUR")
+            {
+                parameter.Answer = parameter.Value * parameter.To.Value;
+            }
+            else
+            if (parameter.From.Name == "AZN" && parameter.To.Name == "USD")
+            {
+                parameter.Answer = parameter.Value * parameter.To.Value;
+            }
+            else
+            if (parameter.From.Name == "AZN" && parameter.To.Name == "RUB")
+            {
+                parameter.Answer = parameter.Value * parameter.To.Value;
+            }
+            else
+            if (parameter.From.Name == "RUB" && parameter.To.Name == "EUR")
+            {
+                parameter.Answer = parameter.Value * parameter.To.Value;
+            }
+            else
+            if (parameter.From.Name == "RUB" && parameter.To.Name == "USD")
+            {
+                parameter.Answer = parameter.Value * parameter.To.Value;
+            }
+            else
+            if (parameter.From.Name == "RUB" && parameter.To.Name == "AZN")
+            {
+                parameter.Answer = parameter.Value * parameter.To.Value;
+            }
+            else
+            if (parameter.From.Name == "EUR" && parameter.To.Name == "AZN")
+            {
+                parameter.Answer = parameter.Value * parameter.To.Value;
+            }
+            else
+            if (parameter.From.Name == "EUR" && parameter.To.Name == "USD")
+            {
+                parameter.Answer = parameter.Value * parameter.To.Value;
+            }
+            else
+            if (parameter.From.Name == "EUR" && parameter.To.Name == "RUB")
+            {
+                parameter.Answer = parameter.Value * parameter.To.Value;
             }
         }
 

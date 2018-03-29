@@ -6,69 +6,89 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
 
 namespace ConverterMVVM.ViewModel
 {
-    //public class Currence
-    //{
-    //    public string Name { get; set; }
-    //    public double Value { get; set; }
+    public class Currence
+    {
+        public string Name { get; set; }
+        public decimal Value { get; set; }
 
-    //    public Currence(string Name, double Value)
-    //    {
-    //        this.Name = Name;
-    //        this.Value = Value;
-    //    }
-    //}
+        public Currence(string Name, decimal Value)
+        {
+            this.Name = Name;
+            this.Value = Value;
+        }
+    }
 
     public class ConvertClass
     {
-        public ObservableCollection<string> currencyItem { get; set; }
+        public ObservableCollection<Currence> currencyItem { get; set; }
 
         public ConvertClass()
         {
-            currencyItem = new ObservableCollection<string>()
+            currencyItem = new ObservableCollection<Currence>()
             {
-                "USD",
-                "AZN",
-                "RUB",
-                "EUR"
+                new Currence("USD", 0.42M),
+                new Currence("AZN", 0.72M),
+                new Currence("RUB", 2.46M),
+                new Currence("EUR", 0.34M)
             };
         }
 
-
-        private void tbValue_PreviewTextInput(object sender, TextCompositionEventArgs e)
+        void Convert(ConvertParameter parameter)
         {
-            var textBox = sender as TextBox;
-            e.Handled = Regex.IsMatch(e.Text, "[^0-9]+");
+            MessageBox.Show("tui");
+
+            if (parameter.From.Name == "USD" && parameter.To.Name == "AZN")
+            {
+                parameter.Value *= parameter.To.Value;
+            }
+            else
+            if (parameter.From.Name == "USD" && parameter.To.Name == "RUB")
+            {
+                parameter.Value *= parameter.To.Value;
+            }
+            else
+            if (parameter.From.Name == "USD" && parameter.To.Name == "EUR")
+            {
+                parameter.Value *= parameter.To.Value;
+            }
         }
 
-        void Convert(string FCur, string TCur, double value)
+        private ICommand convertCommand;
+        public ICommand ConvertCommand
         {
-            
+            get
+            {
+                if (this.convertCommand is null)
+                {
+                    this.convertCommand = new RelayCommand(
+                        (param) =>
+                        {
+                            var convertParam = param as ConvertParameter;
+
+                            Convert(convertParam);
+                        },
+                        (param) =>
+                        {
+                            var checkParam = param as ConvertParameter;
+
+                            if (checkParam.From == null || checkParam.To == null)
+                                return false;
+
+                            if (checkParam.From.Name != "" && checkParam.To.Name != "" && checkParam.Value != 0)
+                            {
+                                return true;
+                            }
+                            return false;
+                        });
+                }
+                return this.convertCommand;
+            }
         }
-
-        private IComparable convertCommand;
-
-        //public IComparable ConvertCommand
-        
-            //get
-            //{
-            //    if (this.convertCommand is null)
-            //    {
-            //        this.convertCommand = new RelayCommand(
-            //            (param) => 
-            //            {
-                            
-            //            }
-            //            )
-            //    }
-            //}
-            
-        
-
-
     }
 }

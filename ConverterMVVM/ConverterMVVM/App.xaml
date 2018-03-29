@@ -11,6 +11,9 @@
 			<Setter Property="VerticalContentAlignment" Value="Center"/>
 		</Style>
 
+		<DataTemplate x:Key="AliExpress">
+			<ComboBoxItem Content="{Binding Path=Name}"/>
+		</DataTemplate>
 
 	</Application.Resources>
 </Application>
